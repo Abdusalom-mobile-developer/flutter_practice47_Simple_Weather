@@ -11,4 +11,5 @@ class ImgPaths {
   static const String nightWindy = "assets/images/night_windy.png";
   static const String nightSnow = "assets/images/night_snow.png";
   static const String nightLightning = "assets/images/night_lightning.png";
+  static const String noIdeaPerson = "assets/images/question.png";
 }

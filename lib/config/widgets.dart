@@ -4,9 +4,10 @@ import 'package:flutter_practice47_weather/screens/home.dart';
 
 mixin CustomWidgets {
   // Custom Text maker widget
-  Widget customText(BuildContext context, String text) {
+  Widget customText(BuildContext context, String text, {String? fontFamily}) {
     return Text(text,
         style: TextStyle(
+            fontFamily: fontFamily,
             color: ColorsClass.white,
             fontSize: MediaQuery.of(context).size.width / 15));
   }
@@ -18,7 +19,7 @@ mixin CustomWidgets {
         style: TextStyle(
             fontWeight: FontWeight.bold,
             color: color,
-            fontSize: MediaQuery.of(context).size.width / 17));
+            fontSize: MediaQuery.of(context).size.width / 18.3));
   }
 
   // Custom Height maker widget
