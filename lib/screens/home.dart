@@ -37,7 +37,7 @@ class _HomeScreenState extends State<HomeScreen> with CustomWidgets {
     }
     getInfo();
     Timer(
-      const Duration(seconds: 2),
+      const Duration(milliseconds: 1900),
       () {
         if (listOfWeatherInfo.isNotEmpty) {
           setState(() {
